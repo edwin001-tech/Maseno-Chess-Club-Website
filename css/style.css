@@ -225,12 +225,12 @@ body {
     
 }
 
-.brand {
+.logo {
     display: flex;
     cursor: pointer;
 }
 
-.hotel-heading {
+.chess-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.7rem;
     font-weight: 400;
@@ -261,6 +261,40 @@ body {
     animation: anim 1.5s .5s backwards;
 }
 
+/* common header */
+.common-header {
+    padding: 5rem;
+    text-align: center;
+    color: #b85d1c;
+}
+
+.common-heading {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b85d1c;
+}
+
+.big-underline {
+    width: 20rem;
+    height: .1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+
+.custom-underline {
+    width: 20rem;
+    height: .1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+
 
 
 @keyframes anim {
@@ -272,3 +306,42 @@ body {
     }
 }
 /* end of header */
+
+.activities {
+    margin-left: 8rem;
+    padding-bottom: 7rem;
+    background-color: #15141b;
+}
+
+.activities-card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-card {
+    background-color: #eee;
+    width: 30rem;
+    display: flex;
+    height: 30rem;
+}
+.activity-info {
+    padding: 0 2rem;
+}
+
+.activity-heading {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.activity-paragraph {
+    font-size: 1.5rem;
+    
+}
+
+.fees {
+    font-size: 1.5rem;
+}
