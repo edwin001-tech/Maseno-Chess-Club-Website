@@ -670,6 +670,55 @@ body {
 
 /* end of footer */
 
+/* people */
+
+
+
+.people-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.people-card {
+    background-color: #15141b;
+    width: 40rem;
+    display: flex;
+}
+
+.people-image-wrapper {
+    margin: auto 0;
+}
+
+.people-image {
+    width: 20rem;
+    margin-left: -1.3rem;
+
+}
+
+.people-info {
+    padding: 0 2rem;
+}
+
+.people-fullname {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.people-paragraph-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b85d1c;
+}
+
+.people-paragraph-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* end of people */
+
 
 
 
