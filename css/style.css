@@ -691,8 +691,10 @@ body {
 }
 
 .people-image {
-    width: 20rem;
+    width: 100px;
+    height: 100px;
     margin-left: -1.3rem;
+    border-radius: 50%;
 
 }
 
@@ -717,13 +719,8 @@ body {
     font-style: italic;
 }
 
+.about-us-content ul{
+    display: flex;
+}
+
 /* end of people */
-
-
-
-
-
-
-
-
-
