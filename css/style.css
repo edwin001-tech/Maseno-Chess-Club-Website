@@ -314,7 +314,17 @@ body {
         background-size: cover;
         
     }
+
+    .banner-heading{
+        text-align: center;
+    }
+    .banner-paragraph{
+        text-align: center;
+    }
+
 }
+
+
 
 /* end of header */
 
@@ -382,6 +392,7 @@ body {
     background-color: #15141b;
 }
 
+
 .about-us-content {
     flex: 1 1 50%;
     display: flex;
@@ -390,6 +401,7 @@ body {
     align-items: center;
     padding: 5rem;
     box-sizing: border-box;
+    margin-top: 2rem;
 }
 
 .about-us-heading {
@@ -400,20 +412,18 @@ body {
     color: #b85d1c;
 }
 
-.sub-heading {
-    font-size: 3.5rem;
-    font-weight: 300;
-    letter-spacing: .2rem;
-    color: #b85d1c;
-    margin-bottom: 2rem;
-}
+
 
 .about-us-paragraph {
     font-size: 1.6rem;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
 }
+
+
+
 
 /* end of about us */
 
@@ -476,8 +486,8 @@ body {
     display: grid;
     grid-template-columns: repeat(8, minmax(1rem, 1fr));
     grid-template-rows: repeat(4, 10vw);
-    grid-gap: 1.6rem;
-    margin-top: 6.4rem;
+    grid-gap: 1rem;
+    margin-top: 5rem;
     background-color: #15141b;
     padding: 1.6rem 0;
     margin-bottom: 4rem;
@@ -554,6 +564,12 @@ body {
 .gallery-img-12 {
     grid-column: 7 / 9;
     grid-row: 3 / 5
+}
+
+@media(min-width: 400px){
+    .gallery{
+        grid-gap: 0rem
+    }
 }
 /* end of gallery */
 
@@ -709,12 +725,13 @@ body {
     flex: 2 0px;
   }
 }
+}
 
 /* end of footer */
 
 /* people */
 
-
+/* 
 
 .people-card-wrapper {
     display: flex;
@@ -759,11 +776,9 @@ body {
 .people-paragraph-2 {
     font-size: 1.3rem;
     font-style: italic;
-}
+} */
 
-.about-us-content ul{
-    display: flex;
-}
+
 
 
 /* end of people */
