@@ -788,3 +788,77 @@ body {
 
 
 /* end of people */
+
+@media(max-width: 500px){
+    .navigation {
+        width: 25rem;
+    }
+    .banner-heading{
+        text-align: center;
+    }
+    .banner-paragraph{
+        text-align: center;
+    }
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+    .activities-card-wrapper{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .activity-info{
+        margin: 2rem;
+    }
+    .common-heading{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .big-underline{
+        width: 15rem;
+    }
+    .activity-paragraph{
+        font-size: 1.5rem;
+    }
+    
+    .list_ul{
+        width:20rem;
+        
+    }
+    .list_ul li{
+        display: flex;
+        flex-direction: column;
+        
+        font-size: 1.5rem;
+        padding-left: 0rem;
+        
+    }
+    .about-us-heading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .gallery{
+        grid-gap: 0rem
+        
+    }
+    .gallery-img{
+        opacity: .7;
+        
+    }
+    .copyright{
+        text-align: center;
+    }
+     
+    
+    
+}
