@@ -876,6 +876,13 @@ body {
     .header{
         width:fit-content;
     }
+
+   .header{
+       box-sizing: content-box;
+   }
+   .activities{
+       box-sizing: content-box;
+   }
      
     
     
