@@ -873,17 +873,6 @@ body {
     .footer__btn{
         padding: 0.3rem;
     }
-    .header{
-        width:fit-content;
-    }
-
-   .header{
-       box-sizing: content-box;
-   }
-   .activities{
-       box-sizing: content-box;
-   }
-     
     
-    
+  
 }
